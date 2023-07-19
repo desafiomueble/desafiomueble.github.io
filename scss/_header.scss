@@ -49,7 +49,7 @@
             border-radius: 0px;
             box-shadow: none;
             margin: 0px;
-            background: $primary-color2;
+            background: rgb(117, 27, 27);
             @media (min-width: 992px) {
               position: absolute;
               top: 120%;
@@ -99,7 +99,7 @@
               }
               &:hover {
                 .nav-link {
-                  background: $primary-color;
+                  background: rgb(117, 27, 27);
                   color: #fff;
                 }
               }
