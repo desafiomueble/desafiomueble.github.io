@@ -24,12 +24,14 @@
 
 .banner-content {
     text-align: left;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
     @media (max-width: 1680px) {
         text-align: center;
     }
     @media (max-width: 680px) {
         padding: 48px 20px;
-        background: #fff;
+        background-color: rgba(255, 255, 255, 0.5);
         margin: 0 15px;
     }
     .primary-btn {
