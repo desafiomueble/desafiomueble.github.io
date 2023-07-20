@@ -218,7 +218,7 @@ button:focus {
           border-radius: 0px;
           box-shadow: none;
           margin: 0px;
-          background: #ffd200; }
+          background: rgb(117, 27, 27); }
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
               position: absolute;
@@ -281,7 +281,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #ffd200;
+    background: rgb(117, 27, 27);
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -2845,7 +2845,7 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: #ffd200; }
+  background: rgb(117, 27, 27); }
 
 .social_widget .f_title h4 {
   font-size: 21px;
