@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Steve Portfolio</title>
+	<title>Mesa ratona</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -71,22 +71,7 @@
 	</header>
 	<!--================Header Menu Area =================-->
 
-	<!--================ Start portfolio Banner Area =================-->
-	<section class="banner_area">
-		<div class="banner_inner d-flex align-items-center">
-			<div class="container">
-				<div class="banner_content text-right">
-					<h1>Portfolio Details</h1>
-					<div class="page_link">
-						<a href="index.html">Home</a>
-						<a href="portfolio.html">Portfolio</a>
-						<a href="portfolio-details.html">Details</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Portfolio Banner Area =================-->
+	
 
 	<!--================ Start Portfolio Details Area =================-->
 	<section class="portfolio_details_area section_gap">
@@ -97,30 +82,222 @@
 						<div class="left_img">
 							<img class="img-fluid" src="img/works/project-details-1.jpg" alt="">
 						</div>
+
+
+
+
+
+
+
+
+
+
+
+
+						<div class="container mt-5">
+    <h1>Galería de Fotos</h1>
+    <div class="row gallery">
+      <!-- Primera imagen -->
+      <div class="col-md-4 mb-3">
+        <img src="img/fondo.jpg" alt="Imagen 1" data-toggle="modal" data-target="#imagenModal1">
+      </div>
+
+      <!-- Segunda imagen -->
+      <div class="col-md-4 mb-3">
+        <img src="img/fondo.jpg" alt="Imagen 2" data-toggle="modal" data-target="#imagenModal2">
+      </div>
+
+      <!-- Tercera imagen -->
+      <div class="col-md-4 mb-3">
+        <img src="img/fondo.jpg" alt="Imagen 3" data-toggle="modal" data-target="#imagenModal3">
+      </div>
+
+      <!-- Agregar más imágenes según sea necesario -->
+    </div>
+  </div>
+
+  <!-- Modales para mostrar las imágenes en una ventana emergente -->
+  <div class="modal fade" id="imagenModal1" tabindex="-1" role="dialog" aria-labelledby="imagenModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <img src="img/fondo.jpg" alt="Imagen 1" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="imagenModal2" tabindex="-1" role="dialog" aria-labelledby="imagenModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <img src="img/fondo.jpg" alt="Imagen 2" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="imagenModal3" tabindex="-1" role="dialog" aria-labelledby="imagenModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <img src="img/fondo.jpg" alt="Imagen 3" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 					</div>
 					<div class="offset-md-1 col-md-5">
 						<div class="portfolio_right_text mt-30">
-							<h4>Lavendar ambient colorlib</h4>
+							<h2>Lavendar ambient colorlib</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 								dolore
 								magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 							<ul class="list">
-								<li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+								<li><span>Calidad de materiales</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
 									 class="fa fa-star"></i></li>
 								<li><span>Client</span>: colorlib</li>
 								<li><span>Website</span>: colorlib.com</li>
 								<li><span>Completed</span>: 17 Aug 2018</li>
 							</ul>
-							<ul class="list social_details">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
+					
+					<div style="margin-top: 20px; background: green; border-radius: 7px; text-align: center;  ">
+						<h4>Compartí en WhatsApp</h4>	
+						</div>	
+ <div class="share-icons" id="whats" onclick="shareWhatsApp()">
+    <!-- Obtener la URL de la página actual con JavaScript -->
+    
+    <a href="javascript:void(0)"><i class="fa fa-whatsapp"></i></a>
+
+							
+    <script>
+  // Función para obtener la URL de la página actual
+  function getCurrentURL() {
+    return window.location.href;
+  }
+
+  // Función para obtener el título de la página actual
+  function getCurrentTitle() {
+    return document.title;
+  }
+
+  // Función para compartir en WhatsApp
+  function shareWhatsApp() {
+    const title = "Desafio mueble ~ " + getCurrentTitle() + " - " + getCurrentURL();
+    const url = "https://api.whatsapp.com/send?text=" + encodeURIComponent(title);
+    window.open(url);
+  }
+
+  // Función para pedir presupuesto en WhatsApp
+  function presuWhatsApp() {
+    const title = "Quiero pedir presupuesto de: " + getCurrentTitle() + " - " + getCurrentURL();
+    const url = "https://api.whatsapp.com/send?text=" + encodeURIComponent(title);
+    window.open(url);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    document.title = document.title.replace('Comparto', 'Desafío mueble');
+  });
+</script>
+    <!-- Utilizar las funciones shareFacebook() y shareWhatsApp() para los enlaces de compartir -->
+    
+  </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.title = document.title.replace('Comparto', 'Desafío mueble');
+    });
+  </script>
+
+
+
+  <div style="margin-top: 20px; background: green; border-radius: 7px; text-align: center;  ">
+						<h4>Pedir presupuesto</h4>	
+						</div>
+	<div class="share-icons" id="presu" onclick="presuWhatsApp()">
+    <!-- Obtener la URL de la página actual con JavaScript -->
+    
+    <a href="javascript:void(0)"><i class="fa fa-whatsapp"></i></a>
+    
+  </div>
+
+
 						</div>
 					</div>
 				</div>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+ <style>
+    /* Ajustar el tamaño de las imágenes */
+    #whats{
+    	border: 1px solid black;
+    	border-radius: 5px;
+    	 cursor: pointer;
+ 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    #whats:hover {
+  /* Cambiar el color de fondo y el color del icono cuando se hace hover */
+  background-color: #f5f5f5;
+  color: #007bff; /* Cambiar a tu color preferido */
+}
+#presu{
+    	border: 1px solid black;
+    	border-radius: 5px;
+    	 cursor: pointer;
+ 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    #presu:hover {
+  /* Cambiar el color de fondo y el color del icono cuando se hace hover */
+  background-color: #f5f5f5;
+  color: #007bff; /* Cambiar a tu color preferido */
+}
+    .gallery img {
+      width: 100%;
+      height: auto;
+      cursor: pointer;
+    }
+
+    /* Estilos para la tira de iconos */
+    .share-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    .share-icons a {
+      display: inline-block;
+     
+      font-size: 50px;
+      color: green;
+    }
+    .portfolio_details_inner .portfolio_right_text h4{
+    	color: white;
+    }
+    .portfolio_details_inner .row{
+    	margin-bottom: 10px;
+    }
+  </style>
+
+
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
 					magna
 					aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

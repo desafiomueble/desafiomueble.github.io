@@ -96,7 +96,7 @@ h1 {
         border-radius: 5px;
         display: flex;
         align-items: center;
-        border: 3px solid black; /* Agregar borde de 1px negro */
+        border: 3px solid black; /*  borde de 1px negro */
 }
 
 .box img {
@@ -211,7 +211,7 @@ h1 {
 
 
     <script>
-        // Lista de nombres de las páginas y sus descripciones
+        // Lista de nombres de las páginas y sus descripciones ///AGREGAR
         const pages = [
             { 
                 name: "Página 1", 
@@ -231,7 +231,7 @@ h1 {
                 link: "pagina3.html",
                 image: "ruta_de_la_imagen_3.jpg"
             }
-            // Agrega más páginas aquí con el mismo formato
+            // Agrega más ACA COPIANDO LO DE ARRIBA
         ];
 
          function showPages(pagesToShow) {
@@ -249,7 +249,7 @@ h1 {
             pagesToShow.forEach(page => {
                 const box = document.createElement("div");
                 box.className = "box wooden-background ";
-                box.id = `box_${page.name}`; // Agregar un identificador único a cada caja
+                box.id = `box_${page.name}`; // identificador único a cada caja
                 box.innerHTML = `
                     <img src="${page.image}" alt="${page.name}">
                     <div class="box-content">

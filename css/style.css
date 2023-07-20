@@ -316,7 +316,7 @@ button:focus {
   background-size: cover;
   background-repeat: no-repeat; }
 .banner-area .slide_bg1 {
-  background: url(../img/banner/banner-bg1.jpg); }
+  background: url(../img/banner/fondo1.jpg); }
 .banner-area .slide_bg2 {
   background: url(../img/banner/banner-bg2.jpg); }
 .banner-area .slide_bg3 {
@@ -2861,7 +2861,7 @@ h6 {
   margin-right: 40px;
   display: inline-block; }
   .social_widget .list li a {
-    color: #c48e0b;
+    color: white;
     font-size: 36px;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
@@ -2870,14 +2870,14 @@ h6 {
   .social_widget .list li:last-child {
     margin-right: 0px; }
   .social_widget .list li:hover a {
-    color: rgb(117, 27, 27); }
+    color: black; }
 
 .copyright {
   margin-top: 40px; }
   .copyright p {
     color: #000; }
     .copyright p a {
-      color: rgb(117, 27, 27); }
+      color: rgb(0, 183, 255); }
 
 /* End Footer Area css
 ============================================================================================ */
